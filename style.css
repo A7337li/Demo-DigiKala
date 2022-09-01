@@ -2,6 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: yekanFont;
+}
+
+@font-face {
+    font-family: yekanFont;
+    src: url(fonts/Yekan.woff);
 }
 
 .menu {
@@ -38,7 +44,24 @@
     transform: translateY(5px);
 }
 
-.image-digi {
+.menu-bar {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #fff;
+}
+
+.digi-svg-bar {
+    margin-right:19px;
+}
+
+.image-digi-home {
     margin-top: 15px;
     height: 25px;
     width: auto;
@@ -49,6 +72,10 @@ hr {
     margin: 8px 19px 4px 19px; 
 }
 
+hr.bar {
+    margin: 8px 0px 8px 19px;
+}
+
 .login {
     font-weight: bold;
     font-size: 13px;
@@ -57,7 +84,7 @@ hr {
 }
 
 .log-in-package {
-    width: 110px;
+    width: 60%;
     height: auto;
     display: flex;
     align-items: center;
@@ -67,12 +94,12 @@ hr {
 #query {
     background-image: url("icons/icon-search.svg");
     background-repeat: no-repeat;
-    background-position: 120px;
+    background-position: 90%;
     background-size: 21px;
     text-align: center;
     background-color: #F1F1F1;
     border: 0;
-    width: 150px;
+    width: 90%;
     height: 43px;
     margin: 2.5% 19px 0 0;
     border-radius: 10px;
