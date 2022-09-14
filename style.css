@@ -57,8 +57,16 @@
     background-color: #fff;
 }
 
-.digi-svg-bar {
-    margin-right:19px;
+#svg-SuperMarket {
+    stroke: #9C9C9C;
+    stroke-width: 3;
+    fill: none;
+}
+
+text#t-svg-Market {
+    fill: black;
+    stroke: none;
+    font-size: 16px;
 }
 
 .image-digi-home {
@@ -69,11 +77,11 @@
 }
 
 hr {
-    margin: 8px 19px 4px 19px; 
+    margin: 8px 19px 4px 19px;
 }
 
 hr.bar {
-    margin: 8px 0px 8px 19px;
+    margin: 4px 0px 4px 19px;
 }
 
 p.login {
@@ -109,7 +117,7 @@ p.login {
     justify-content: center;
 }
 
-p.text-query{
+p.text-query {
     font-size: 10px;
     color: #8a8a8a;
     margin-top: -5px;
@@ -117,6 +125,6 @@ p.text-query{
 
 .lines {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
 }
