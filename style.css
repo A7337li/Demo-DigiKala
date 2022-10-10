@@ -57,16 +57,29 @@
     background-color: #fff;
 }
 
-#svg-SuperMarket {
+.svg-SuperMarket {
     stroke: #9C9C9C;
     stroke-width: 3;
     fill: none;
 }
 
-text#t-svg-Market {
+.svg-BestSellers {
+    fill: none;
+    stroke: #9C9C9C;
+    stroke-width: 7;
+    margin-top: 5px;
+}
+
+text.t-svg-Market {
     fill: black;
     stroke: none;
     font-size: 16px;
+}
+
+text.t-svg-BestSellers {
+    fill: black;
+    stroke: none;
+    font-size: 38px;
 }
 
 .image-digi-home {
