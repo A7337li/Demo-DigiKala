@@ -55,6 +55,11 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.svg-Digi-bar{
+    margin-bottom: 10px;
 }
 
 .svg-SuperMarket {
@@ -67,7 +72,7 @@
     fill: none;
     stroke: #9C9C9C;
     stroke-width: 7;
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 text.t-svg-Market {
