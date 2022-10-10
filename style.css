@@ -68,7 +68,7 @@
     fill: none;
 }
 
-.svg-BestSellers {
+[class*="svg--"] {
     fill: none;
     stroke: #9C9C9C;
     stroke-width: 7;
@@ -81,7 +81,7 @@ text.t-svg-Market {
     font-size: 16px;
 }
 
-text.t-svg-BestSellers {
+text.t-svg {
     fill: black;
     stroke: none;
     font-size: 38px;
