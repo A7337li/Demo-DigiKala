@@ -72,13 +72,24 @@
     fill: none;
     stroke: #9C9C9C;
     stroke-width: 7;
-    margin-top: 20px;
+    margin-top: 18px;
+}
+
+.svg-quschin {
+    margin-top: 15px;
+    margin-right: -25px;
 }
 
 text.t-svg-Market {
     fill: black;
     stroke: none;
     font-size: 16px;
+}
+
+text.t-svg-quschin{
+    fill: black;
+    stroke: none;
+    font-size: 21px;
 }
 
 text.t-svg {
