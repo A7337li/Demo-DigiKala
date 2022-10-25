@@ -57,6 +57,7 @@
     background-color: #fff;
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .svg-Digi-bar {
@@ -114,7 +115,7 @@ p.Classification {
     margin-top: 10px;
 }
 
-.phone {
+[class*="phone-"] {
     display: flex;
     justify-content: space-between;
 }
