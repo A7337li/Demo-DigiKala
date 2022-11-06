@@ -129,7 +129,7 @@ p.Classification {
     align-items: center;
 }
 
-[class*= "angle-up-"] {
+[class*="angle-up-"] {
     display: none;
     stroke: red;
     stroke-width: 3;

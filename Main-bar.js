@@ -3,7 +3,7 @@ const phone = $.querySelector("div.phone-0");
 let bool = true;
 
 
-phone.addEventListener("click",function(){
+phone.addEventListener("click", function () {
     if (bool == true) {
         $.querySelector("p.mobile").style.color = "red";
         $.querySelector("div.subset-mobile").style.display = "inline";
