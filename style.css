@@ -129,21 +129,23 @@ p.Classification {
     align-items: center;
 }
 
-svg.angle-up {
+[class*= "angle-up-"] {
+    display: none;
     stroke: red;
     stroke-width: 3;
 }
 
-svg.angle-down {
+[class*="angle-down-"] {
     stroke: black;
     stroke-width: 3;
 }
 
-.mobile {
-    color: red;
+p.mobile {
+    color: black;
 }
 
 .subset-mobile {
+    display: none;
     margin-top: 10px;
     margin-right: -20px;
     background-color: #F5F5F5;
