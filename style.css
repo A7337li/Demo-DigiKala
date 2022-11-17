@@ -55,7 +55,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     background-color: #fff;
-    display: flex;
+    display: none;
     flex-direction: column;
     cursor: pointer;
 }
@@ -86,6 +86,7 @@
     margin-right: -25px;
 }
 
+
 text.t-svg-Market {
     fill: #363636;
     stroke: none;
@@ -115,7 +116,7 @@ p.Classification {
     margin-top: 10px;
 }
 
-[class*="phone-"] {
+[class*="phone"] {
     display: flex;
     justify-content: space-between;
 }
@@ -229,4 +230,15 @@ p.text-query {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.test1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.test2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
