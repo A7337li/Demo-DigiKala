@@ -2,9 +2,9 @@ const $ = document;
 
 function myfunction(colorText, subset, angleDown, angleUp) {
 
-    let angle = $.querySelector(angleDown).style.display;
+    let angleD = $.querySelector(angleDown).style.display;
     
-    if (angle == "inline") {
+    if (angleD == "inline") {
         $.querySelector(colorText).style.color = "red";
         $.querySelector(subset).style.display = "inline";
         $.querySelector(angleDown).style.display = "none";
@@ -16,3 +16,4 @@ function myfunction(colorText, subset, angleDown, angleUp) {
         $.querySelector(angleUp).style.display = "none";
     }
 }
+
