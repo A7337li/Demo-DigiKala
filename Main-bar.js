@@ -1,15 +1,15 @@
 const $ = document;
 
-function myfunction(a, b, c, d) {
-    if ($.querySelector(c).style.display == "inline") {
-        $.querySelector(a).style.color = "red";
-        $.querySelector(b).style.display = "inline";
-        $.querySelector(c).style.display = "none";
-        $.querySelector(d).style.display = "inline";
+function myfunction(colorText, subset, angleDown, angleUp) {
+    if ($.querySelector(angleDown).style.display == "inline") {
+        $.querySelector(colorText).style.color = "red";
+        $.querySelector(subset).style.display = "inline";
+        $.querySelector(angleDown).style.display = "none";
+        $.querySelector(angleUp).style.display = "inline";
     } else {
-        $.querySelector(a).style.color = "black";
-        $.querySelector(b).style.display = "none";
-        $.querySelector(c).style.display = "inline";
-        $.querySelector(d).style.display = "none";
+        $.querySelector(colorText).style.color = "black";
+        $.querySelector(subset).style.display = "none";
+        $.querySelector(angleDown).style.display = "inline";
+        $.querySelector(angleUp).style.display = "none";
     }
 }
