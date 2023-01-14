@@ -6,12 +6,10 @@ function myfunction(a, b, c, d) {
         $.querySelector(b).style.display = "inline";
         $.querySelector(c).style.display = "none";
         $.querySelector(d).style.display = "inline";
-        bool = false;
     } else {
         $.querySelector(a).style.color = "black";
         $.querySelector(b).style.display = "none";
         $.querySelector(c).style.display = "inline";
         $.querySelector(d).style.display = "none";
-        bool = true;
     }
 }
