@@ -1,6 +1,6 @@
 const $ = document;
 
-function myfunction(colorText, subset, angleDown, angleUp) {
+const myfunction = (colorText, subset, angleDown, angleUp) => {
 
     let angleD = $.querySelector(angleDown).style.display;
     
